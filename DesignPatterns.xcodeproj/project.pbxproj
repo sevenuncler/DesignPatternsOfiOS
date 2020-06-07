@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA5B66C248C769900C1A6BD /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B66B248C769900C1A6BD /* AbstractFactory.m */; };
+		2BA5B66F248C771600C1A6BD /* iOSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B66E248C771600C1A6BD /* iOSFactory.m */; };
+		2BA5B672248C772500C1A6BD /* AndroidFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B671248C772500C1A6BD /* AndroidFactory.m */; };
+		2BA5B675248C773D00C1A6BD /* iOSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B674248C773D00C1A6BD /* iOSNumber.m */; };
+		2BA5B678248C774A00C1A6BD /* AndroidNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B677248C774A00C1A6BD /* AndroidNumber.m */; };
+		2BA5B67B248C775B00C1A6BD /* iOSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B67A248C775B00C1A6BD /* iOSString.m */; };
+		2BA5B67E248C777100C1A6BD /* AndroidString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5B67D248C777100C1A6BD /* AndroidString.m */; };
 		2BE681CD2489F454008F0FC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE681CC2489F454008F0FC8 /* AppDelegate.m */; };
 		2BE681D02489F454008F0FC8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE681CF2489F454008F0FC8 /* SceneDelegate.m */; };
 		2BE681D32489F454008F0FC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE681D22489F454008F0FC8 /* ViewController.m */; };
@@ -16,6 +23,17 @@
 		2BE681DE2489F455008F0FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE681DD2489F455008F0FC8 /* main.m */; };
 		2BE681E82489F456008F0FC8 /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE681E72489F456008F0FC8 /* DesignPatternsTests.m */; };
 		2BE681F32489F456008F0FC8 /* DesignPatternsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE681F22489F456008F0FC8 /* DesignPatternsUITests.m */; };
+		2BE68212248A1DBE008F0FC8 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68211248A1DBE008F0FC8 /* Number.m */; };
+		2BE68215248A1DD7008F0FC8 /* FloatNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68214248A1DD7008F0FC8 /* FloatNumber.m */; };
+		2BE68218248A1DE5008F0FC8 /* IntNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68217248A1DE5008F0FC8 /* IntNumber.m */; };
+		2BE6821B248A1E10008F0FC8 /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6821A248A1E10008F0FC8 /* SimpleFactory.m */; };
+		2BE6821E248A2017008F0FC8 /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6821D248A2016008F0FC8 /* Value.m */; };
+		2BE68221248A205B008F0FC8 /* ValueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68220248A205B008F0FC8 /* ValueFactory.m */; };
+		2BE68224248A20DB008F0FC8 /* StringFactoryImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68223248A20DB008F0FC8 /* StringFactoryImpl.m */; };
+		2BE68227248A20FA008F0FC8 /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68226248A20FA008F0FC8 /* String.m */; };
+		2BE6822A248A214E008F0FC8 /* IntNumberFactoryImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE68229248A214E008F0FC8 /* IntNumberFactoryImpl.m */; };
+		2BE6822D248A224A008F0FC8 /* SymbolValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6822C248A224A008F0FC8 /* SymbolValue.m */; };
+		2BE68230248A2259008F0FC8 /* SymbolFactoryImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6822F248A2259008F0FC8 /* SymbolFactoryImpl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BA5B66A248C769900C1A6BD /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		2BA5B66B248C769900C1A6BD /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		2BA5B66D248C771600C1A6BD /* iOSFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSFactory.h; sourceTree = "<group>"; };
+		2BA5B66E248C771600C1A6BD /* iOSFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFactory.m; sourceTree = "<group>"; };
+		2BA5B670248C772500C1A6BD /* AndroidFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidFactory.h; sourceTree = "<group>"; };
+		2BA5B671248C772500C1A6BD /* AndroidFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidFactory.m; sourceTree = "<group>"; };
+		2BA5B673248C773D00C1A6BD /* iOSNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSNumber.h; sourceTree = "<group>"; };
+		2BA5B674248C773D00C1A6BD /* iOSNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNumber.m; sourceTree = "<group>"; };
+		2BA5B676248C774A00C1A6BD /* AndroidNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidNumber.h; sourceTree = "<group>"; };
+		2BA5B677248C774A00C1A6BD /* AndroidNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidNumber.m; sourceTree = "<group>"; };
+		2BA5B679248C775B00C1A6BD /* iOSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSString.h; sourceTree = "<group>"; };
+		2BA5B67A248C775B00C1A6BD /* iOSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSString.m; sourceTree = "<group>"; };
+		2BA5B67C248C777100C1A6BD /* AndroidString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidString.h; sourceTree = "<group>"; };
+		2BA5B67D248C777100C1A6BD /* AndroidString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidString.m; sourceTree = "<group>"; };
+		2BA5B67F248C77F000C1A6BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2BA5B680248C797500C1A6BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2BE681C82489F454008F0FC8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE681CB2489F454008F0FC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BE681CC2489F454008F0FC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +88,29 @@
 		2BE681EE2489F456008F0FC8 /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE681F22489F456008F0FC8 /* DesignPatternsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsUITests.m; sourceTree = "<group>"; };
 		2BE681F42489F456008F0FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE682032489F4DD008F0FC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2BE68210248A1DBE008F0FC8 /* Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number.h; sourceTree = "<group>"; };
+		2BE68211248A1DBE008F0FC8 /* Number.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number.m; sourceTree = "<group>"; };
+		2BE68213248A1DD7008F0FC8 /* FloatNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatNumber.h; sourceTree = "<group>"; };
+		2BE68214248A1DD7008F0FC8 /* FloatNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatNumber.m; sourceTree = "<group>"; };
+		2BE68216248A1DE5008F0FC8 /* IntNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntNumber.h; sourceTree = "<group>"; };
+		2BE68217248A1DE5008F0FC8 /* IntNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntNumber.m; sourceTree = "<group>"; };
+		2BE68219248A1E10008F0FC8 /* SimpleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFactory.h; sourceTree = "<group>"; };
+		2BE6821A248A1E10008F0FC8 /* SimpleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactory.m; sourceTree = "<group>"; };
+		2BE6821C248A2016008F0FC8 /* Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
+		2BE6821D248A2016008F0FC8 /* Value.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
+		2BE6821F248A205B008F0FC8 /* ValueFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueFactory.h; sourceTree = "<group>"; };
+		2BE68220248A205B008F0FC8 /* ValueFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueFactory.m; sourceTree = "<group>"; };
+		2BE68222248A20DB008F0FC8 /* StringFactoryImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringFactoryImpl.h; sourceTree = "<group>"; };
+		2BE68223248A20DB008F0FC8 /* StringFactoryImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringFactoryImpl.m; sourceTree = "<group>"; };
+		2BE68225248A20FA008F0FC8 /* String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		2BE68226248A20FA008F0FC8 /* String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
+		2BE68228248A214E008F0FC8 /* IntNumberFactoryImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntNumberFactoryImpl.h; sourceTree = "<group>"; };
+		2BE68229248A214E008F0FC8 /* IntNumberFactoryImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntNumberFactoryImpl.m; sourceTree = "<group>"; };
+		2BE6822B248A224A008F0FC8 /* SymbolValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymbolValue.h; sourceTree = "<group>"; };
+		2BE6822C248A224A008F0FC8 /* SymbolValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolValue.m; sourceTree = "<group>"; };
+		2BE6822E248A2259008F0FC8 /* SymbolFactoryImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymbolFactoryImpl.h; sourceTree = "<group>"; };
+		2BE6822F248A2259008F0FC8 /* SymbolFactoryImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolFactoryImpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +161,9 @@
 		2BE681CA2489F454008F0FC8 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				2BE682002489F46A008F0FC8 /* 1.SimpleFactory */,
+				2BE682012489F484008F0FC8 /* 2.FactoryMethod */,
+				2BE682022489F492008F0FC8 /* 3.AbstractMethod */,
 				2BE681CB2489F454008F0FC8 /* AppDelegate.h */,
 				2BE681CC2489F454008F0FC8 /* AppDelegate.m */,
 				2BE681CE2489F454008F0FC8 /* SceneDelegate.h */,
@@ -135,6 +195,66 @@
 				2BE681F42489F456008F0FC8 /* Info.plist */,
 			);
 			path = DesignPatternsUITests;
+			sourceTree = "<group>";
+		};
+		2BE682002489F46A008F0FC8 /* 1.SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				2BE682032489F4DD008F0FC8 /* README.md */,
+				2BE68219248A1E10008F0FC8 /* SimpleFactory.h */,
+				2BE6821A248A1E10008F0FC8 /* SimpleFactory.m */,
+				2BE6821C248A2016008F0FC8 /* Value.h */,
+				2BE6821D248A2016008F0FC8 /* Value.m */,
+				2BE68210248A1DBE008F0FC8 /* Number.h */,
+				2BE68211248A1DBE008F0FC8 /* Number.m */,
+				2BE68213248A1DD7008F0FC8 /* FloatNumber.h */,
+				2BE68214248A1DD7008F0FC8 /* FloatNumber.m */,
+				2BE68216248A1DE5008F0FC8 /* IntNumber.h */,
+				2BE68217248A1DE5008F0FC8 /* IntNumber.m */,
+			);
+			path = 1.SimpleFactory;
+			sourceTree = "<group>";
+		};
+		2BE682012489F484008F0FC8 /* 2.FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				2BE6821F248A205B008F0FC8 /* ValueFactory.h */,
+				2BE68220248A205B008F0FC8 /* ValueFactory.m */,
+				2BE68222248A20DB008F0FC8 /* StringFactoryImpl.h */,
+				2BE68223248A20DB008F0FC8 /* StringFactoryImpl.m */,
+				2BE68228248A214E008F0FC8 /* IntNumberFactoryImpl.h */,
+				2BE68229248A214E008F0FC8 /* IntNumberFactoryImpl.m */,
+				2BE6822E248A2259008F0FC8 /* SymbolFactoryImpl.h */,
+				2BE6822F248A2259008F0FC8 /* SymbolFactoryImpl.m */,
+				2BE68225248A20FA008F0FC8 /* String.h */,
+				2BE68226248A20FA008F0FC8 /* String.m */,
+				2BE6822B248A224A008F0FC8 /* SymbolValue.h */,
+				2BE6822C248A224A008F0FC8 /* SymbolValue.m */,
+				2BA5B680248C797500C1A6BD /* README.md */,
+			);
+			path = 2.FactoryMethod;
+			sourceTree = "<group>";
+		};
+		2BE682022489F492008F0FC8 /* 3.AbstractMethod */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5B67F248C77F000C1A6BD /* README.md */,
+				2BA5B66A248C769900C1A6BD /* AbstractFactory.h */,
+				2BA5B66B248C769900C1A6BD /* AbstractFactory.m */,
+				2BA5B66D248C771600C1A6BD /* iOSFactory.h */,
+				2BA5B66E248C771600C1A6BD /* iOSFactory.m */,
+				2BA5B670248C772500C1A6BD /* AndroidFactory.h */,
+				2BA5B671248C772500C1A6BD /* AndroidFactory.m */,
+				2BA5B673248C773D00C1A6BD /* iOSNumber.h */,
+				2BA5B674248C773D00C1A6BD /* iOSNumber.m */,
+				2BA5B679248C775B00C1A6BD /* iOSString.h */,
+				2BA5B67A248C775B00C1A6BD /* iOSString.m */,
+				2BA5B676248C774A00C1A6BD /* AndroidNumber.h */,
+				2BA5B677248C774A00C1A6BD /* AndroidNumber.m */,
+				2BA5B67C248C777100C1A6BD /* AndroidString.h */,
+				2BA5B67D248C777100C1A6BD /* AndroidString.m */,
+			);
+			path = 3.AbstractMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +387,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA5B672248C772500C1A6BD /* AndroidFactory.m in Sources */,
+				2BA5B67B248C775B00C1A6BD /* iOSString.m in Sources */,
+				2BE68221248A205B008F0FC8 /* ValueFactory.m in Sources */,
+				2BE6821E248A2017008F0FC8 /* Value.m in Sources */,
 				2BE681D32489F454008F0FC8 /* ViewController.m in Sources */,
 				2BE681CD2489F454008F0FC8 /* AppDelegate.m in Sources */,
+				2BE68215248A1DD7008F0FC8 /* FloatNumber.m in Sources */,
+				2BA5B675248C773D00C1A6BD /* iOSNumber.m in Sources */,
+				2BE68230248A2259008F0FC8 /* SymbolFactoryImpl.m in Sources */,
+				2BE6822D248A224A008F0FC8 /* SymbolValue.m in Sources */,
+				2BE6822A248A214E008F0FC8 /* IntNumberFactoryImpl.m in Sources */,
+				2BA5B66C248C769900C1A6BD /* AbstractFactory.m in Sources */,
 				2BE681DE2489F455008F0FC8 /* main.m in Sources */,
+				2BA5B678248C774A00C1A6BD /* AndroidNumber.m in Sources */,
+				2BA5B66F248C771600C1A6BD /* iOSFactory.m in Sources */,
+				2BE68227248A20FA008F0FC8 /* String.m in Sources */,
+				2BA5B67E248C777100C1A6BD /* AndroidString.m in Sources */,
+				2BE6821B248A1E10008F0FC8 /* SimpleFactory.m in Sources */,
+				2BE68212248A1DBE008F0FC8 /* Number.m in Sources */,
 				2BE681D02489F454008F0FC8 /* SceneDelegate.m in Sources */,
+				2BE68224248A20DB008F0FC8 /* StringFactoryImpl.m in Sources */,
+				2BE68218248A1DE5008F0FC8 /* IntNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
